@@ -1,0 +1,1603 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.slaid {
+  width: 10vw;
+  overflow-y: auto;
+  background: rgb(248, 246, 246);
+  color: #000000;
+  transition: all 0.1s;
+  text-align: center;
+  width: 17vw;
+}
+
+main {
+  width: 100%;
+  padding: 1vw;
+  overflow-y: auto;
+  height: 250vh;
+  background-color: #eee;
+  height: auto;
+}
+
+
+
+.top_section {
+  display: flex;
+  align-items: end;
+  padding:2vw 1.5vh;
+}
+
+
+.menu {
+  display: flex;
+  color: #020000;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  border: 1px solid #c1c1c1;
+}
+.active{
+  background-color: dodgerblue;;
+}
+.menu:hover {
+  background:dodgerblue;
+  color: #000;
+  transition: all 0.5s;
+}
+
+#header {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 8vh;
+  height: 90vh;
+  box-shadow: 2px 2px 5px black;
+  background-color:whitesmoke;
+ 
+}
+
+
+#admin {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 2px black;
+
+}
+.background-color{
+  background-color: #000;
+  color: #fff;
+}
+
+.create-button {
+  background-color: #4285f4;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 850px;
+
+}
+
+.create-button:hover {
+  background-color: rgb(33, 33, 158);
+}
+
+
+
+
+
+.search-input {
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  margin-top: 5vh;
+  margin-left: 80vh;
+}
+
+
+
+.search-button:hover {
+  background-color: rgb(33, 33, 158);
+}
+
+.List {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  border: 1px solid rgb(15, 15, 14);
+  padding: 1vw;
+  width: 10vw;
+
+}
+.Listmargin{
+  margin-top: 14px;
+}
+.ShowList {
+  display: inline-block;
+  border: 1px solid rgb(15, 15, 14);
+  padding: 1vw;
+  width: 10vw;
+
+}
+.mainlist{
+  margin-top: 3vh;
+}
+.addModulebutton{
+background-color: #4CAF50;
+}
+.Update-User-Module-update{
+  width: 10vw;
+  height: 5vh;
+  margin-right: 3vw;
+  background-color: dodgerblue;
+}
+.Update-User-Module-back{
+width: 10vw;
+height: 5vh;
+background-color: orange;
+}
+
+.app-setting-btn{
+  background-color: #4CAF50;
+  margin-left: 2vw;
+  height: 6vh;
+  width: 10vw;
+  color: white;
+  font-size: large;
+}
+
+.App-Settings{                                          
+  margin-bottom: 1.8vw;
+  margin-right: 1.3vw;
+  margin-left: 2vw;
+  }
+  .AppSettings-width{
+    height: 4vh;
+    width: 80vw;
+
+    }
+
+    .userhead{
+      display: flex;
+        width: 900px;
+        margin-left: 150px;
+        padding: 20px;
+        background-color: dodgerblue;
+    }
+     .userbottom{
+      
+      width: 918px;
+      margin-left: 150px;
+     }
+     .tital-name{
+      margin-top: 3vh;
+      margin-left: 1vw;
+    }
+    
+    .button1{
+      margin-left: auto;
+      margin-top: 4vh;
+      margin-right: 2vw;
+    }
+    
+     .userlistbackground{
+      background-color:dodgerblue;
+      display: flex;
+      height: 12vh;
+      color: #fff;
+     }
+
+     .user{
+      width: 100%;
+      padding: 10px;
+     }
+
+     .inputbox{
+      margin-left: 10vw;
+    width: 245px;
+    height: 5vh;
+     }
+
+     label{
+      margin-left: 10vw;
+      display: inline-block;
+      font-weight: bold;
+      width: 150px;
+  }
+     
+     .buttons{
+      margin-top: 1vh;
+      margin-left: 25vw;
+    }
+     .button{
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 1vw;
+    }
+    
+    .AuditLogs-Main{
+      margin-top: 9vh;
+     
+      align-items: center;
+      width: auto;
+     
+    }
+    .Audit-input {
+     padding: 1vw;
+      margin-left: 2vw;
+      margin-top: 5vh;
+    
+    }
+    .Audit-lable{
+    margin-top: 10px;
+    display: contents;
+    }
+    .Audit-inputbox{
+    width: 15vw;
+    height: 5vh;
+    margin-left: 3vw;
+     }
+     .Audit-valuse{
+      width: 55px;
+      height: 5vh;
+      margin-left: 3vw;
+     }
+     
+.Audit-Search {
+
+  margin-left: 47vw;
+  padding: 1vh;
+  width: 17vw;
+
+}
+.Audit-select-search{
+  margin-top: 1vh;
+  margin-left: 2vw;
+  display: flex;
+}
+
+   
+
+    .Audit-List-main{
+      margin-left: 2vw;
+    margin-top: 3vh;
+    }
+    .Audit-List{
+      background-color: black;
+      color: white;
+      display: inline;
+      padding: 1vw;
+      padding-right: 7vw;
+    }
+
+    .contest-rule-list-margin{
+      margin-top: 4vh;
+    }
+    .contest-rule{
+      display: inline-block;
+      border: 1px solid rgb(15, 15, 14);
+      padding: 1vw;
+      width: 10vw;
+    background-color:black;
+    color: white;
+      
+    }
+    
+    .contest-rule-rule{
+      display: inline-block;
+      border: 1px solid rgb(15, 15, 14);
+      padding: 1vw;
+      width: 39.71vw;
+      background-color: black;
+      color: white;
+      
+    }
+    .contest-rule-list{
+      display: inline-block;
+      padding: 1vw;
+      width: 10vw;
+      
+    }
+    
+    .contest-rule-rule-list{
+      display: inline-block;
+      padding: 1vw;
+      width: 39.71vw;
+      
+    }
+    .contest-img{
+      margin-left: 60vh;
+      margin-top: 2vh;
+      justify-content: space-between;
+    }
+    .img-box{
+      display: flex;
+    }
+    .contest-checkbox{
+      height: 3vh;
+      width: 3vw;
+    }
+    .contest-checkbox-top{
+     text-align: center;
+    }
+    .before-after{
+      display: flex;
+    }
+    .before{
+      margin-left: 35vw;
+    }
+    .after{
+      margin-left: 6vw;
+    }
+    .buttons-create-rule{
+      margin-top: 5vh;
+      margin-right: 3vw;
+      text-align: end;
+    }
+     .button-create-rule-submit{
+      padding: 10px 20px;
+      background-color:dodgerblue;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 1vw;
+    }
+    .button-create-rule-back{
+      padding: 10px 20px;
+      background-color:orange;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 1vw;
+    }
+
+    .course-list{
+      margin-top: 2vh;
+      display: inline-block;
+      border: 1px solid rgb(15, 15, 14);
+      width: 7.5vw;
+      padding: 1vw;
+      background-color: black;
+      color: white;
+    }
+    .course-list-list{
+      display: inline-block;
+      width: 7.5vw;
+      padding: 1vw;
+    }
+    .course-list-list-margin{
+      margin-left:1vw ;
+    }
+    
+     .course-ul{
+      margin-left: 1vw;
+    
+    }
+
+    .coupons-list{
+      margin-top: 2vh;
+
+    }
+    .coupons-ul{
+      margin-left: .2vw;
+      overflow: auto;
+      display: inline-flex;
+      
+    }
+
+    .coupons{
+      margin-top: 2vh;
+      display: inline-block;
+      border: 1px solid rgb(15, 15, 14);
+      width: 7vw;
+      padding: 1vw;
+      background-color: black;
+      color: white;
+    }
+    .coupons-overflow{
+      overflow: auto;
+    }
+    .coupons-data-list{
+      margin-top: 2vh;
+      display: inline-block;
+      border: 1px solid rgb(228, 228, 223);
+      width: 7vw;
+      padding: 1vw;
+    }
+
+    #header-user-session-logs{
+      margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 8vh;
+  height: 80vh;
+  box-shadow: 2px 2px 5px black;
+  background-color:whitesmoke;
+    }
+
+    .tital-name-user-session-logs{
+      margin-top: 3vh;
+      margin-left: 30vw;
+    }
+
+   
+
+    .user-session-logs-list{
+      display: inline-block;
+      border: 1px solid rgb(15, 15, 14);
+      padding: 1vw;
+      width: 10vw;
+      background-color: black;
+      color: white;
+      
+    }
+    .user-session-logs-ip-list{
+      display: inline-block;
+      border: 1px solid rgb(15, 15, 14);
+      padding: 1vw;
+      width: 40.2vw;
+      background-color: black;
+      color: white;
+      
+    }
+    .user-session-logs-list-margin{
+      margin-top: 3vh;
+    }
+   
+    #CreateCoupons-header{
+      margin-left: 2vw;
+      margin-right: 2vw;
+      margin-top: 8vh;
+      min-height: 200vh;
+      box-shadow: 2px 2px 5px black;
+      background-color:whitesmoke; 
+    }
+    .CreateCoupons-list{
+      margin-top: 2vh;
+
+    }
+ 
+    .CreateCoupons-ul{
+      display: flex;
+    }
+
+    .CreateCoupons{
+      margin-top: 2vh;
+      display: inline-block;
+      border: 1px solid rgb(15, 15, 14);
+      width: 13vw;
+      padding: 1.5vh;
+      background-color: black;
+      color: white;
+    }
+    .Mandatory-fields{
+      text-align: center;
+      margin-top: 3vh;
+          }
+
+    .CreateCoupons-lable{
+      display: block;
+      width: 17vw;
+    margin-top: 4vh;
+    }
+    .CreateCoupons-valuse{
+
+    margin-left: 21vh;
+    width: 50vw;
+    height: 6vh;
+    }
+    .Optional-fields{
+      text-align: center;
+      margin-top: 3vh;
+          }
+          .CreateCoupons-date{
+            margin-left: 21vh;
+            width: 20vw;
+           height: 6vh;
+          }
+          .CreateCoupons-date-display{
+            display: flex;
+          }
+      .CreateCoupons-btn{
+        margin-left: 21vh;
+        margin-top: 7vh;
+        width: 50vw;
+        height: 6vh;
+        background-color: #4285f4;;
+      }
+    #profile-header {
+      margin-left: 2vw;
+      margin-right: 2vw;
+      margin-top: 8vh;
+      height: 120vh;
+      box-shadow: 2px 2px 5px black;
+      background-color:whitesmoke;
+      
+    }
+    #profile-header2 {
+      margin-left: 2vw;
+      margin-right: 2vw;
+      margin-top: 8vh;
+      height: 100vh;
+      box-shadow: 2px 2px 5px black;
+      background-color:whitesmoke;
+    }
+    #profile {
+    
+      padding: 10px;
+      
+      box-shadow: 1px 1px 2px black;
+    
+    }
+    .tital-name-profile{
+      margin-top: 3vh;
+      margin-left: 35vw;
+    }
+    .profile-btn{
+      text-align: center;
+      margin-top: 10vh;
+    }
+    .edit-profile{
+      padding: 1.5vw;
+      border: 1px solid black;
+      background-color: #4CAF50;
+      color: white;
+    }
+    .change-password{
+      padding: 1.5vw;
+      border: 1px solid black;
+      margin-left: 1vw;
+      background-color: blue;
+      color: white;
+    }
+
+    .Order-ul{
+      display: flex;
+      
+    }
+
+    #header-coupons{
+
+      margin-left: 2vw;
+      margin-right: 2vw;
+      margin-top: 8vh;
+      height: 90vh;
+      box-shadow: 2px 2px 5px black;
+      background-color:whitesmoke;
+    }
+
+    #header-notification{
+      margin-left: 2vw;
+      margin-right: 2vw;
+      margin-top: 8vh;
+      height: auto;
+      box-shadow: 2px 2px 5px black;
+      background-color:whitesmoke;
+    }
+
+    #admin-notification{
+      padding: 10px;
+      text-align: center;
+      box-shadow: 1px 1px 2px black;
+    }
+    .tital-name-notification{
+      margin-top: 3vh;
+      margin-left: 35vw;
+    }
+    
+    .notification-lable{
+     margin-left: 1vw;
+    }
+    .notification-inputbox{
+      padding: 1vw;
+      width: 15vw;
+    }
+    .labal-margin{
+      margin-top: 3vw;
+    }
+    .notification-input{
+      margin-top: 2vw;
+    }
+    .notification-list{
+      width: 9vw;
+      height: 4vh;
+      border: 1px solid black;
+      list-style: none;
+      background-color: black;
+      color: white;
+    }
+    .notification-list-margin{
+      margin-top: 10vh;
+    }
+    .notification-ul{
+      margin-left: 2vw;
+      display: flex;
+    }
+    .notification-image-url{
+      width: 78vw;
+      height: 4vh;
+      margin-top: 1vw;
+    }
+    .notification-image-file{
+      width: 78vw;
+      height: 4vh;
+      border: 1px solid;
+      
+    }
+.Notifications-Title{
+  margin-top: 3vh;
+}
+.image-url{
+  margin-top: 3vh;
+}
+.Notifications-Body{
+  margin-top: 3vh;
+}
+
+.que{
+  margin-top: 3vh;
+}
+.que-input{
+    width: 25vw;
+    height: 6vh;
+}
+.ans{
+  margin-top: 3vh;
+}
+.ans-input{
+  width: 25vw;
+  height: 8vh;
+
+}
+.faq-btn{
+  height: 8vh;
+    width: 9vh;
+    margin-left: 6vh;
+    background-color: deepskyblue;
+}
+#header-faq{
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 8vh;
+  height: 90vh;
+  box-shadow: 2px 2px 5px black;
+  background-color:whitesmoke;
+ overflow: auto;
+}
+.faq-margin{
+  margin-top: 25vh;
+}
+.tital-name-faq{
+  margin-top: 3vh;
+  margin-left: 28vw;
+}
+
+.faq-list{
+  list-style: none;
+    display: inline-block;
+    border: 1px solid;
+    width: 19vw;
+}
+.faq-ul{
+  margin-left: 1vw;
+}
+
+.faq-list-margin{
+  margin-top: 5vh;
+}
+.faq-list-ul{
+  margin-left: 3vw;
+  /* margin-top: 1vh; */
+}
+.faq-list-list{
+  list-style: none;
+  display: inline-block;
+  border: 1px solid black;
+  width: 12vw;
+  padding: 1vw;
+  background-color: black;
+  color: white;
+}
+.faq-faq-list-list{
+  list-style: none;
+  display: inline-block;
+  border: 1px solid rgb(250, 248, 248);
+  width: 12vw;
+  padding: 1vw;
+}
+.tital-name-faq-tags{
+  margin-top: 3vh;
+  margin-left: 23vw;
+}
+.faq-tags-select-search{
+  margin-top: 20vh;
+  margin-left: 2vw;
+  display: flex;
+}
+.faq-tags-btn{
+  width: 10vw;
+  height: 6vh;
+  background-color: deepskyblue;
+}
+.faq-tags-btn-right{
+  text-align: end;
+  margin-top: 1vh;
+  margin-right: 2vw;
+}
+
+.faq-input{
+  width: 25vw;
+  height: 8vh;
+  margin-left: 8vw;
+}
+.faq-tags-input{
+  display: flex;
+  margin-top: 10vh;
+  margin-left: 9vw;
+}
+.faq-tags-margin{
+  margin-top: 5vh;
+}
+.faq-tags-ul{
+  margin-left: 1vw;
+  /* margin-top: 1vh; */
+}
+.faq-tags-list{
+  list-style: none;
+  display: inline-block;
+  border: 1px solid black;
+  width: 30%;
+  padding: 1vw;
+  background-color: black;
+  color: white;
+}
+.faq-tags-list-list{
+  list-style: none;
+  display: inline-block;
+  /* border: 1px solid rgb(233, 229, 229); */
+  width: 30%;
+  padding: 1vw;
+}
+
+#header-feedback{
+  margin-left: 2vw;
+margin-right: 2vw;
+margin-top: 8vh;
+height: 90vh;
+box-shadow: 2px 2px 5px black;
+background-color:whitesmoke;
+}
+
+#admin-feedback{
+
+  padding: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 2px black;
+
+}
+.feedback-list{
+  display: inline-block;
+  border: 1px solid rgb(15, 15, 14);
+  padding: 1vw;
+  width: 10vw;
+  background-color: black;
+      color: white;
+  
+}
+.feedback-list-margin{
+  margin-top: 3vh;
+}
+.feedback{
+  display: flex;
+}
+.tital-name-feedback{
+  margin-top: 3vh;
+  margin-left: 35vw;
+}
+.gx-course-ul{
+  /* margin-left: 1vw; */
+  display: inline-flex;
+  overflow: auto;
+}
+.gx-course-list{
+  margin-top: 2vh;
+  list-style: none;
+  border: 1px solid rgb(15, 15, 14);
+  width: 11vw;
+  padding: 1vw;
+  background-color: black;
+  color: white;
+
+  
+}
+.gx-course-data-list{
+  margin-top: 2vh;
+  list-style: none;
+  border: 1px solid rgb(203, 203, 199);
+  width: 11vw;
+  padding: 1vw;
+  
+}
+.comment-button {
+  text-align: end;
+  margin-right: 4vw;
+  margin-top: 3vh;
+}
+.comment-select-search{
+  display: inline-flex;
+  margin-top: 4vh;
+}
+.comment-lable{
+  display: contents;
+}
+.comment-right{
+  text-align: right;
+}
+.comment-Search{
+  margin-right: 4vw;
+  height: 4vh;
+}
+.comment-valuse{
+  margin-right: 19vw;
+  height: 4vh;
+}
+.comment-link{
+  margin-right: 22vw;
+  display: inline-flex;
+  list-style: none;
+}
+.comment-link li{
+ margin: 10px;
+}
+
+
+.tital-Extension{
+  margin-top: 3vh;
+}
+#header-Extension{
+  margin-left: 2vw;
+margin-right: 2vw;
+margin-top: 8vh;
+height: 90vh;
+box-shadow: 2px 2px 5px black;
+background-color:whitesmoke;
+
+overflow: auto;
+
+}
+#header-Extension-list{
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 8vh;
+  height: 90vh;
+  box-shadow: 2px 2px 5px black;
+  background-color:whitesmoke;
+  
+  overflow: auto;
+  
+  
+}
+
+.Extension-list-margin{
+  margin-top: 3vh;
+  margin-left: 1vw;
+}
+
+.Extension-list-list{
+  display: inline-flex;
+  border: 1px solid rgb(15, 15, 14);
+  padding: 1vw;
+  width: 8.7vw;
+  background-color: black;
+  color: white;
+  
+}
+.ManageExtention-list-list{
+  display: inline-flex;
+  border: 1px solid rgb(153, 153, 153);
+  padding: 1vw;
+  width: 8.7vw;
+  
+}
+.extension{
+
+  height: 6vh;
+  margin-top: 4vh;
+  margin-left: 10vh;
+
+}
+
+.extension-input{
+  width: 25vw;
+  height: 6vh;
+  margin-left: 10vw;
+}
+.extension-btn{
+  margin-top: 20px;
+  height: 5vh;
+  width: 28vh;
+  margin-left: 47vw;
+  color: white;
+  background-color: deepskyblue;
+  font-size: larger;
+}
+.extension-cheak-box{
+ 
+  margin-left: 10vw;
+}
+
+.Marathon-overflow{
+  overflow: auto;
+}
+.Marathon-list-ul{
+  display: inline-flex;
+}
+.Marathon-list{
+  
+  border: 1px solid rgb(15, 15, 14);
+  padding: 1vw;
+  width: 10vw;
+  background-color: black;
+  color: white;
+  list-style: none;
+}
+.Marathon-list-list-ul{
+  display: inline-flex;
+}
+.Marathon-list-list{
+  
+  border: 1px solid rgb(237, 237, 231);
+  padding: 1vw;
+  width: 10vw;
+  list-style: none;
+}
+
+.module-list-ul{
+  display: inline-flex;
+  margin-top: 5vh;
+  margin-left: 10vw;
+}
+.module-list-sno{
+  
+  border: 1px solid rgb(15, 15, 14);
+  padding: 1vw;
+  width: 5vw;
+  background-color: black;
+  color: white;
+  list-style: none;
+}
+.module-list{
+  
+  border: 1px solid rgb(15, 15, 14);
+  padding: 1vw;
+  width: 20vw;
+  background-color: black;
+      color: white;
+  list-style: none;
+}
+
+#UserPrivilege-header {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 8vh;
+  height: 100vh;
+  box-shadow: 2px 2px 5px black;
+  background-color:whitesmoke;
+}
+#UserPrivilege-header2 {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 35vw;
+  height: 35vh;
+  box-shadow: 2px 2px 5px black;
+  background-color:whitesmoke;
+}
+#UserPrivilege-header3 {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 35vw;
+  height: 35vh;
+  box-shadow: 2px 2px 5px black;
+  background-color:whitesmoke;
+}
+.tital-name-UserPrivilege{
+  margin-top: 3vh;
+  margin-left: 30vw;
+}
+.UserPrivilege-box{
+  display: inline-flex;
+  margin-top: 1vh;
+}
+.UserPrivilege-btn{
+  margin-top: 5vh;
+  margin-left: 2vw;
+}
+.UserPrivilege-btn-add{
+  width: 35vw;
+  height: 6vh;
+  background-color: dodgerblue;
+}
+.UserPrivilege-btn-remove{
+  width: 35vw;
+  margin-left: 4vw;
+  height: 6vh;
+  background-color: dodgerblue;
+}
+
+.UserPrivilege-lable{
+  margin-top: 4vh;
+  margin-left: 2vw;
+}
+.UserPrivilege-inputbox{
+  margin-top: 4vh;
+  margin-left: 2vw;
+  height: 5vh;
+  width: 20vw;
+}
+.UserPrivilege-btn-all-1{
+  margin-left: 3vw;
+    padding: 1vw;
+    width: 15vw;
+    margin-top: 2vh;
+    background-color: dodgerblue;
+}
+.UserPrivilege-btn-all-2{
+  margin-left: 7vw;
+    padding: 1vw;
+    width: 15vw;
+    margin-top: 2vh;
+    background-color: dodgerblue;
+}
+.UserPrivilege-btn-none{
+  margin-left: 2vw;
+    padding: 1vw;
+    width: 15vw;
+    margin-top: 2vh;
+    background-color: rgb(50, 221, 244);
+}
+.UserPrivilege-btn-submit{
+
+  width: 10vw;
+  padding: 1vh;
+  color: #fff;
+  font-size: larger;
+  background-color:  rgb(34, 233, 87);
+}
+.submit-btn{
+  margin-top: 7vh;
+  text-align: end;
+  margin-right: 5vw;
+}
+
+
+
+#Day-Cat-header {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 8vh;
+  height: 120vh;
+  box-shadow: 2px 2px 5px black;
+  background-color:whitesmoke;
+  color: #fff;
+}
+.tital-name-Day-Cat{
+  margin-top: 3vh;
+  margin-left: 35vw;
+}
+.Day-cat-btn-margin{
+  display: inline-flex;
+  margin-top: 4vh;
+  margin-left: 2vw;
+}
+.buttons-Day-cat{
+  margin-left: 33vw;
+  margin-top: 4vh;
+}
+.Day-cat-btn{
+width: 10vw;
+height: 7vh;
+border-radius: .5vw;
+color: rgb(252, 248, 248);
+font-size: larger;
+background-color:  dodgerblue;
+
+margin: 1vw
+
+}
+
+.Day-cat-btn:hover{
+  background-color: rgb(74, 238, 101);
+
+  }
+
+  .Day-Cat-list{
+    display: inline-flex;
+    list-style: none;
+    background-color: #000;
+    margin-top: 4vh;
+    margin-left: 1.5vw;
+  }
+  .Day-Cat-list-li-list{
+    width: 17vw;
+    padding: 1vw;
+  }
+ 
+  .Category-list-list{
+margin-left: 3vw;
+  }
+  .Day-Category-list{
+    width: 16vw;
+    padding: 1vw;
+    color: #000000;
+    list-style: none;
+    display: inline-flex;
+  }
+
+  .create-exercise-list{
+    width: 17vw;
+    padding: 1vw;
+  }
+  .create-exercise-list-mid{
+    width: 35vw;
+    padding: 1vw;
+  }
+  .create-rule-list{
+    display: flex;
+    list-style: none;
+  }
+  .create-rule-list-ExerciseName{
+    background-color: black;
+    color: white;
+    width: 20vw;
+   padding: 1vw;
+   margin-top: 2vh;
+   margin-left: 2vw;
+  }
+  .create-rule-list-Rule{
+    background-color: black;
+    color: white;
+    width: 50vw;
+    padding: 1vw;
+    margin-top: 2vh;
+  }
+  .create-rule-inputbox{
+    width: 20vw;
+    height: 7vh;
+    margin-left: 2vw;
+    margin-top: 2vh;
+
+  }
+  .button-create-rule-submit{
+    padding: 10px 20px;
+    background-color:dodgerblue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1vw;
+  }
+  .button-create-rule-back{
+    padding: 10px 20px;
+    background-color:orange;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1vw;
+  }
+ .create-rule-date{
+    display: table-caption
+ }
+ .create-rule-lable{
+  display: inline-block;
+ margin-left: 2vw;
+ margin-top: 2vh;
+  width: 150px;
+ }
+ .create-rule-inputbox-date{
+  width: 20vw;
+    height: 4vh;
+    margin-left: 2vw;
+    margin-top: 1vh;
+ }
+  .create-course{
+    width: 100%;
+    padding: 10px;
+  }
+  .create-course-lable{
+    margin-top: 10px;
+    }
+    .create-course-inputbox{
+      margin-left: 10vw;
+    width: 15vw;
+    height: 5vh;
+     }
+     .create-course-checkbox{
+      margin-left: 10vw;
+    width: 3vw;
+    height: 3vh;
+     }
+#header-Manage-Extension{
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 8vh;
+  height: 120vh;
+  box-shadow: 2px 2px 5px black;
+  background-color:whitesmoke;
+  
+
+}
+#Manage-Gx-Course-header {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 8vh;
+  height: 130vh;
+  box-shadow: 2px 2px 5px black;
+  background-color:whitesmoke;
+  
+}
+#Manage-Marathon-header {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 8vh;
+  height: auto;
+  box-shadow: 2px 2px 5px black;
+  background-color:whitesmoke;
+  
+}
+.Manage-Marathon-tital{
+  margin-top: 3vh;
+  margin-left: 30vw;
+}
+.change-password-input{
+    margin-top: 7vh;
+}
+.buttons-password{
+  margin-top: 5vh;
+  margin-left: 18vw;
+}
+.button-red{
+  height: 5vh;
+  width: 10vw;
+  background-color: rgba(227, 53, 53, 0.718);
+  color: white;
+  font-size: large;
+  border: none;
+}
+.button-green{
+  height: 5vh;
+  margin-left: 2vw;
+  width: 15vw;
+  border: none;
+  background-color: rgba(94, 239, 94, 0.871);
+  color: white;
+  font-size: large;
+}
+.button-save-change{
+  height: 5vh;
+  width: 10vw;
+  border: none;
+  background-color: dodgerblue;
+  color: white;
+  font-size: large;
+}
+.button-cancal{
+  height: 5vh;
+  margin-left: 2vw;
+  width: 10vw;
+  border: none;
+  background-color: #2BBBAD;
+  color: white;
+  font-size: large;
+}
+
+.edit-profile-page{
+  display: inline-flex;
+}
+.personal-info{
+  margin-left: 5vw;
+  margin-top: 4vh;
+  display: inline-grid;
+}
+.edit-profile-label{
+ margin-top: 3vh;
+margin-left: 0vw;
+font-weight: 400;
+    width: 150px;
+}
+
+.edit-profile-input-box{
+  margin-top: 2vh;
+  width: 28vw;
+  height: 4vh;
+}
+.edit-profile-file{
+ margin-top: 4vh;
+  display: inline-grid;
+}
+.edit-profile-input-file-box{
+  margin-top: 1vh;
+  width: 12vw;
+  height: 2.8vh;
+  border: 1px solid black;
+  text-align: center;
+}
+.Category-inputbox{
+  margin-top: 2vh;
+  width: 15vw;
+  border: 1px solid rgb(124, 123, 122);
+  padding: 1vw;
+  margin-left: 6vw;
+  color: #000;
+}
+.Category-input{
+  display: inline-flex;
+}
+
+
+.Category-1{
+  color: #222121;
+  margin-left: 3vw;
+  margin-top: 4vh;
+}
+.Category-list-sno{
+  width: 8vw;
+  padding: 1vw;
+}
+.Category-list{
+  width: 20vw;
+  padding: 1vw;
+}
+.exercise-input{
+  display: inline-flex;
+}
+.exercise-inputbox{
+  margin-top: 2vh;
+  width: 14vw;
+  border: 1px solid rgb(124, 123, 122);
+  padding: 1vw;
+  margin-left: 1.5vw;
+  color: #000;
+}
+.exercise-inputbox-mid{
+  margin-top: 2vh;
+  width: 34vw;
+  border: 1px solid rgb(124, 123, 122);
+  padding: 1vw;
+  margin-left: 3vw;
+  color: #000;
+}
+#exercise{
+  margin-left: 1.5vw;
+  margin-right: 2.2vw;
+  height: 40vh;
+  box-shadow: 2px 2px 5px black;
+  background-color:whitesmoke;
+}
+.footer-1{
+  background-color:#0d47a1;
+  padding: 1vh;
+  text-align:end;
+  margin-top: 1vh;
+}
+.footer-2{
+  background-color: #0a3981;
+  padding: 3vh;
+  text-align: center;
+  margin-top: 2vh;
+}
+.exercise-lable{
+  color: black;
+  width: 3vw;
+  margin-left: 1vw;
+}
+.inputbox-tag{
+  margin-top: 3vh;
+  width: 13vw;
+  height: 5vh;
+  text-align: center;
+  border: 3px solid  dodgerblue;
+  border-radius: 1vw;
+
+}
+.exercise-list-margin{
+  margin-top: 5vh;
+}
+.exercise-list-ul{
+  margin-left: 1vw;
+}
+.exercise-list-list{
+  list-style: none;
+  display: inline-block;
+  border: 1px solid black;
+  width: 13vw;
+  padding: 1vw;
+  background-color: black;
+  color: white;
+}
+.Revenue-h1{
+  text-align: center;
+  color: dodgerblue;;
+  font-size: x-large;
+}
+
+.login{
+  text-align: -webkit-center;
+  
+  background-image: url(https://miyabi-staging-service.azurewebsites.net/mma-background.997b37764200bd67d1ec.png);
+  background-position: 100%;
+  background-size: cover;
+  min-height: 100vh;
+}
+.inputbox-login {
+  display: block;
+  margin: 10px;
+  padding: 1vw;
+  border: 1px solid #0f0e0e;
+  border-radius: 2vh;
+  width: 20vw;
+  margin-top: 1vh;
+}
+.buttonbox {
+  width: 11vw;
+  background-color: #2c2a2a;
+  border: 1px solid black;
+  margin-top: 2vh;
+  padding: 1vw;
+  border-radius: 2vh;
+  color: white;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  margin-top: 6vh;
+}
+.save-buttonbox {
+  width: 20vw;
+  background-color: #2c2a2a;
+  border: 1px solid black;
+  margin-top: 2vh;
+  padding: 1vw;
+  border-radius: 2vh;
+  color: white;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  margin-top: 6vh;
+}
+.login-margin{
+  margin-top: 7vh;
+  margin-left: 29vw;
+  margin-right: 29vw;
+  height: 50vh;
+  box-shadow: 2px 2px 5px black;
+  background-color:rgba(245, 245, 245, 0);
+  border-radius: 2vh;
+}
+
+.signup-margin{
+  margin-top: 7vh;
+  margin-left: 29vw;
+  margin-right: 29vw;
+  height: 73vh;
+  box-shadow: 2px 2px 5px black;
+  background-color:rgba(245, 245, 245, 0);
+  border-radius: 2vh;
+}
+.inputbox-login-margin{
+  margin-top: 5vh;
+}
+
+.logout-header {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 8vh;
+  height: 80vh;
+  box-shadow: 2px 2px 5px black;
+  background-color:whitesmoke;
+  text-align: center;
+ 
+}
+.logout-btn{
+  margin-top: 36vh;
+  padding: 2vw;
+  width: 28vw;
+  font-size: xx-large;
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.tital-name-error{
+  margin-top: 3vh;
+  margin-left: 32vw;
+}
+.error-btn{
+  margin-top: 3vh;
+  margin-left: 2vw;
+  padding: 1vw;
+  color: white;
+  background: #33b5e5;
+  border: 1px;
+    border-radius: 0.7vw;
+}
+
+
+
+.tital-name-lang{
+  margin-top: 3vh;
+  margin-left: 30vw;
+}
+.lang-btn{
+  display: inline-flex;
+}
+.lang-btn-right{
+  margin-left: 35vw;
+}
+.lang-btn-left{
+  margin-top: 3vh;
+  padding: 1vw;
+  border: 1px solid rgb(97, 96, 96);
+  border-radius: 0.3vw;
+  font-size: 2vh ;
+}
+.lang-btn-left:hover{
+ background-color: #33b5e5;
+}
+.lang-margin-left{
+  margin-left: 2vw;
+}
+.lang-tag{
+  margin-top: 3vh;
+  margin-left: 2vw;
+  width: 13vw;
+  height: 5vh;
+  text-align: center;
+  border: 3px solid  dodgerblue;
+  border-radius: 1vw;
+}
+.Add-Error-valuse{
+margin-top: 2vh;
+margin-left: 1vw;
+padding: 2vw;
+}
+.Add-Error-lable{
+  margin-left: 1vw;
+  
+  display: inline-block;
+  font-weight: none;
+  width: 8vw;
+}
+.Add-Error{
+display: grid;
+}
+.Add-Error-header{
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 8vh;
+  height: 90vh;
+  box-shadow: 2px 2px 5px black;
+  background-color:whitesmoke;
+}
+.Add-Error-margin{
+  display: inline-flex;
+  margin-left: 30vh;
+  margin-top: 29vh;
+}
